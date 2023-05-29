@@ -1,3 +1,51 @@
-body{
-    background-color: rgb(45, 112, 172);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header,main{
+    background-image: url(../IllustrationsLogo/AllPages/arrière_plan.png);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
+header ul li{
+    padding: 20px;
+    list-style: none;
+}
+
+/*style sur la partie reseau*/
+.reseaux-item{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 20px;
+}
+.reseaux{
+    padding-top: 150px;
+    position: fixed;
+}
+/*style sur la partie panther*/
+.black-panther .container{
+    display: flex;
+}
+.black-panther .info{
+    padding-top: 180px;
+    font-size: 15px;
+    width: 30%;
+}
+.black-panther .image{
+    width: 30%;
+    height: 200px;
 }
